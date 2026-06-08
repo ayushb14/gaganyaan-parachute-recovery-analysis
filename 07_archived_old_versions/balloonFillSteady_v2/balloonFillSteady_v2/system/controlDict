@@ -1,0 +1,38 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: balloonFillSteady_v1                  |
+|  \\    /   O peration     | Control dictionary                              |
+|   \\  /    A nd           |                                                 |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+
+application     foamRun;
+
+startFrom       startTime;
+startTime       0;
+
+stopAt          endTime;
+endTime         500;
+
+deltaT          1;
+
+writeControl    timeStep;
+writeInterval   100;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+writePrecision  8;
+writeCompression off;
+
+timeFormat      general;
+timePrecision   6;
+
+runTimeModifiable true;

@@ -1,0 +1,15 @@
+parameter,value,unit
+stage_name,Drogue reefed opening,
+chute_type,drogue,
+quantity,2,-
+altitude,10000,m
+inlet_velocity,190,m/s
+rhoInf,0.41270615318756876,kg/m3
+temperature,223.14999999999998,K
+speed_of_sound,299.4631648745802,m/s
+mach,0.6344686835844233,-
+full_diameter,5.8,m
+reef_area_ratio,0.3,-
+effective_diameter,3.1767908335299633,m
+Aref_effective,7.926238265007047,m2
+Cd_MATLAB_target,0.55,-

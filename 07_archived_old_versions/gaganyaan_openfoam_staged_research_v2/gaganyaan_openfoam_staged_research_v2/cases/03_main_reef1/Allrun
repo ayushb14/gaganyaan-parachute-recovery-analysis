@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ${0%/*} || exit 1
+rm -rf constant/polyMesh postProcessing [1-9]* [0-9][0-9]* log.*
+blockMesh | tee log.blockMesh
+checkMesh | tee log.checkMesh
+foamRun -solver incompressibleFluid | tee log.foamRun
+python3 ../../scripts/postprocess_stage_cd.py . | tee log.postprocess

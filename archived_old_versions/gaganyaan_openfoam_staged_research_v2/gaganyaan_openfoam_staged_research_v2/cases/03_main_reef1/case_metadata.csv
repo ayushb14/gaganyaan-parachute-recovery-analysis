@@ -1,0 +1,15 @@
+parameter,value,unit
+stage_name,Main first reef stage,
+chute_type,main,
+quantity,3,-
+altitude,2500,m
+inlet_velocity,70,m/s
+rhoInf,0.9568587862321352,kg/m3
+temperature,271.9,K
+speed_of_sound,330.5594432083282,m/s
+mach,0.2117622153540595,-
+full_diameter,25.0,m
+reef_area_ratio,0.2,-
+effective_diameter,11.180339887498949,m
+Aref_effective,98.17477042468104,m2
+Cd_MATLAB_target,0.87,-

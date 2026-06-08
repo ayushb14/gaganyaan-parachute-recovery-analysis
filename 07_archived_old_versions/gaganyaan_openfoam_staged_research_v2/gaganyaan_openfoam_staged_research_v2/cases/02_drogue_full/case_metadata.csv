@@ -1,0 +1,15 @@
+parameter,value,unit
+stage_name,Drogue full open / stabilized,
+chute_type,drogue,
+quantity,2,-
+altitude,8000,m
+inlet_velocity,120,m/s
+rhoInf,0.5251671281613589,kg/m3
+temperature,236.14999999999998,K
+speed_of_sound,308.06257375848173,m/s
+mach,0.3895312518361251,-
+full_diameter,5.8,m
+reef_area_ratio,1.0,-
+effective_diameter,5.8,m
+Aref_effective,26.42079421669016,m2
+Cd_MATLAB_target,0.55,-

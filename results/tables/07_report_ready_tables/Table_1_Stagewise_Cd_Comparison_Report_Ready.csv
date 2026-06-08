@@ -1,0 +1,6 @@
+Stage,Velocity_mps,Altitude_m,Air_Density_kg_m3,Dynamic_Pressure_Pa,Effective_Diameter_m,Reference_Area_m2,Quantity,Cd_OpenFOAM,Cd_MATLAB_Target,Cd_Error_percent,Total_Drag_OpenFOAM_N,Total_Drag_Target_N
+Drogue reefed opening,190.0,10000.0,0.412706,7449.346,3.177,7.926,2.0,0.9216,0.55,67.558,108828.709,64949.821
+Drogue full open,120.0,8000.0,0.5252,3781.44,5.8,26.421,2.0,0.7683,0.55,39.697,153526.538,109899.513
+Main reef stage 1,70.0,2500.0,0.9568,2344.16,11.18,98.175,3.0,0.9388,0.87,7.911,648177.394,600658.535
+Main reef stage 2,40.0,1500.0,1.0581,846.48,19.365,294.524,3.0,0.8298,0.87,-4.619,620640.047,650696.331
+Main full open,20.0,1000.0,1.1117,222.34,25.0,490.874,3.0,0.7569,0.87,-12.999,247827.981,284857.729

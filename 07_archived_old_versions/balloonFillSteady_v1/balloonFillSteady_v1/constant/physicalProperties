@@ -1,0 +1,19 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: balloonFillSteady_v1                  |
+|  \\    /   O peration     | Physical properties                             |
+|   \\  /    A nd           |                                                 |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      physicalProperties;
+}
+
+viscosityModel  constant;
+
+// Kinematic viscosity of air at ~300 K [m2/s]
+nu              [0 2 -1 0 0 0 0] 1.5e-05;

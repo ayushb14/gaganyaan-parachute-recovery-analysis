@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+cd ${0%/*} || exit 1
+for c in cases/*; do
+  if [ -d "$c/system" ]; then
+    echo "=============================="
+    echo "Running $c"
+    echo "=============================="
+    (cd "$c" && chmod +x Allrun && ./Allrun)
+  fi
+done
+python3 scripts/aggregate_stage_results.py

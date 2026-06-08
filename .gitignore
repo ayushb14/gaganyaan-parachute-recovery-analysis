@@ -1,0 +1,23 @@
+# Windows / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MATLAB temporary files
+*.asv
+*.mat
+*.fig
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ParaView temporary files
+*.pvsm
+*.OpenFOAM
+
+# OpenFOAM logs / processor folders
+processor*/
+log.*
+
+# Keep final postProcessing summary tables in results/

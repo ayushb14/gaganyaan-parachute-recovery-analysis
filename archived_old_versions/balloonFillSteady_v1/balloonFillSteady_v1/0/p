@@ -1,0 +1,45 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: balloonFillSteady_v1                  |
+|  \\    /   O peration     | Kinematic pressure field                        |
+|   \\  /    A nd           |                                                 |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      p;
+}
+
+// In incompressible OpenFOAM solvers, p is kinematic pressure p/rho [m2/s2].
+// Physical pressure difference can be approximated as deltaP = rho * delta(p).
+
+dimensions      [0 2 -2 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    inlet
+    {
+        type            zeroGradient;
+    }
+
+    outlet
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+
+    walls
+    {
+        type            zeroGradient;
+    }
+
+    frontAndBack
+    {
+        type            empty;
+    }
+}

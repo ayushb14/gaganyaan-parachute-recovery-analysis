@@ -1,0 +1,10 @@
+Validation Item,Simulation Output,Reference/Target,Status,Notes
+Parachute sequence,ACS -> Drogue -> Pilot/Main -> Touchdown,Public Gaganyaan 10-parachute sequence,Pass,Model uses active-stage logic
+Drogue dynamic pressure,11.75 kPa max q,Project note target around 12 kPa,Pass,Close agreement
+Nominal touchdown velocity,8.99 m/s,Target approx 8-9 m/s,Pass,Full 3-main case
+Two-main redundancy touchdown velocity,11.00 m/s,Two of three mains sufficient public statement,Engineering pass,Needs true survivability criteria
+One-main failure touchdown velocity,15.50 m/s,Failure-mode comparison,Unsafe,Use as severe case
+Monte Carlo touchdown velocity,8.56-9.50 m/s 95% CI,Robust low-speed landing,Numerically robust,Uses assumed uncertainty ranges
+Peak deceleration,3.20 g mean,Opening shock controlled by reefing,Reasonable,Needs real load-limit confirmation
+Lateral drift,785.12 m with simplified 5 m/s wind,Recovery-zone planning metric,Informational,Wind model is simplified
+Asymmetric disreefing tilt proxy,9.71 deg for 0.5s delay,Critical load scenario,Informational,Simplified pendulum/tilt proxy

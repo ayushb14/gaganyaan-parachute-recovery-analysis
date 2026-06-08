@@ -1,0 +1,6 @@
+Stage,Velocity (m/s),Altitude (m),Quantity,Cd CFD,Cd MATLAB Target,Cd Error (%),Total Drag CFD (N),Total Drag Target (N)
+Drogue reefed opening,190.0,10000.0,2.0,0.922,0.55,67.56,108828.71,64949.82
+Drogue full open,120.0,8000.0,2.0,0.768,0.55,39.7,153526.54,109899.51
+Main reef stage 1,70.0,2500.0,3.0,0.939,0.87,7.91,648177.39,600658.54
+Main reef stage 2,40.0,1500.0,3.0,0.83,0.87,-4.62,620640.05,650696.33
+Main full open,20.0,1000.0,3.0,0.757,0.87,-13.0,247827.98,284857.73

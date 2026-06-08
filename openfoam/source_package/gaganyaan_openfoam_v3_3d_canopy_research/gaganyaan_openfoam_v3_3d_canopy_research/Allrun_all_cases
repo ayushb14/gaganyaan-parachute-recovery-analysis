@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+cd "$(dirname "$0")"
+python3 scripts/generate_canopy_stls.py
+for c in cases/*_3D
+ do
+   echo "========================================"
+   echo "Running $c"
+   echo "========================================"
+   (cd "$c" && chmod +x Allrun && ./Allrun)
+ done
+python3 scripts/extract_cd_all.py
+python3 scripts/build_coupled_stage_profile.py

@@ -1,0 +1,2 @@
+#/bin/bash
+rm -rf constant/polyMesh 0/polyMesh processor* postProcessing postProcessing_stage log.* [1-9]*

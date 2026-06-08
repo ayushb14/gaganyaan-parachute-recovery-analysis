@@ -1,0 +1,7 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+for c in cases/*_3D
+ do
+   (cd "$c" && rm -rf constant/polyMesh 0/polyMesh processor* postProcessing postProcessing_stage log.* [1-9]*)
+ done
+rm -rf postProcessing_summary coupled_outputs/*.csv

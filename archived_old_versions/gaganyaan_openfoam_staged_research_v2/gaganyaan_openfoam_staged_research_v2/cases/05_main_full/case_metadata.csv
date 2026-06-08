@@ -1,0 +1,15 @@
+parameter,value,unit
+stage_name,Main full open / final descent,
+chute_type,main,
+quantity,3,-
+altitude,1000,m
+inlet_velocity,20,m/s
+rhoInf,1.1116425003060326,kg/m3
+temperature,281.65,K
+speed_of_sound,336.43397148578794,m/s
+mach,0.059447028823142685,-
+full_diameter,25.0,m
+reef_area_ratio,1.0,-
+effective_diameter,25.0,m
+Aref_effective,490.8738521234052,m2
+Cd_MATLAB_target,0.87,-
